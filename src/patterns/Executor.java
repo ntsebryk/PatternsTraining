@@ -1,5 +1,6 @@
 package patterns;
 
+import patterns.gof.chainofresponsibilities.ChainPatternDemo;
 import patterns.gof.prototype.Project;
 import patterns.gof.adapter.*;
 
@@ -8,8 +9,9 @@ import patterns.gof.adapter.*;
  */
 public class Executor {
     public static void main(String[] args) {
-        executePrototype();
-        executeAdapter();
+        //executePrototype();
+        //executeAdapter();
+        ChainPatternDemo.execute();
     }
 
     private static void executePrototype() {
