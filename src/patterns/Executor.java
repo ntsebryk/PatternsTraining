@@ -3,6 +3,7 @@ package patterns;
 import patterns.gof.chainofresponsibilities.ChainPatternDemo;
 import patterns.gof.prototype.Project;
 import patterns.gof.adapter.*;
+import patterns.gof.visitor.VisitorDemo;
 
 /**
  * Created by ntsebryk on 09.09.2016.
@@ -12,6 +13,7 @@ public class Executor {
         //executePrototype();
         //executeAdapter();
         ChainPatternDemo.execute();
+        VisitorDemo.execute();
     }
 
     private static void executePrototype() {
