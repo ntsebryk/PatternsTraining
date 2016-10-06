@@ -24,11 +24,8 @@ public class Item implements Container{
     public boolean equals(Object obj) {
         Item item;
         if(obj == null) return false;
-        if(obj == this || ((obj instanceof Item) && (item = (Item) obj).itemId == this.itemId
-                && item.itemName == this.itemName)) {
-            return true;
-        }
-        return false;
+        return obj == this || ((obj instanceof Item) && (item = (Item) obj).itemId == this.itemId
+                && item.itemName == this.itemName);
     }
 
     @Override

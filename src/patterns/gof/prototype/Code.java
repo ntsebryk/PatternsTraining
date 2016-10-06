@@ -58,7 +58,7 @@ public class Code implements Cloneable {
 
         Code code1 = (Code) o;
         if(!this.code.equals(code1.code)) return false;
-        return  this.code != null ? this.code.equals(code1.code) : false;
+        return this.code != null && this.code.equals(code1.code);
     }
 
     @Override

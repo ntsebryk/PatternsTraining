@@ -1,10 +1,11 @@
 package patterns;
 
-import patterns.gof.chainofresponsibilities.ChainPatternDemo;
+import patterns.gof.adapter.AnalogConnection;
+import patterns.gof.adapter.DigitalAdapter;
+import patterns.gof.adapter.DigitalConnection;
+import patterns.gof.adapter.VGA;
 import patterns.gof.iterator.IteratorDemo;
 import patterns.gof.prototype.Project;
-import patterns.gof.adapter.*;
-import patterns.gof.visitor.VisitorDemo;
 
 /**
  * Created by ntsebryk on 09.09.2016.
